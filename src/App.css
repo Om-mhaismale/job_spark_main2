@@ -1,0 +1,47 @@
+*{
+  text-align: center;
+}
+header{
+  color : #0a66c2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding : 0px 30px;
+  margin: 0px;
+
+  background-color: aliceblue;
+}
+
+.icon{
+background-color: red;
+height: 50px;
+width: 50px;
+
+}
+header > nav{
+  color: #0a66c2;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+form{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin: 0 auto;
+}
+button{
+  margin: 20px;
+  gap: 10px;
+  padding: 100px 70px;
+}
