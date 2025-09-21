@@ -19,11 +19,11 @@
 }
 
 .job-search-container .page-title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
   color: #2c3e50;
   margin: 0 0 10px 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #0a66c2;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -86,7 +86,7 @@
 .job-search-container .apply-btn {
   padding: 15px 30px !important; /* Override global button padding */
   margin: 0 !important; /* Override global button margin */
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  background:#0a66c2 !important;
   color: white !important;
   border: none !important;
   border-radius: 12px !important;

@@ -25,7 +25,8 @@ a:hover {
 body {
   margin: 0;
   /* display: flex;
-  place-items: center; */
+  align-items: center;
+  place-items: center;  */
   min-width: 320px;
   min-height: 100vh;
 }
@@ -57,7 +58,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #6a2a8a;
   }
   a:hover {
     color: #747bff;
