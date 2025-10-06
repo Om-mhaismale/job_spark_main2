@@ -9,11 +9,15 @@ export default function Form() {
 
     return (
         <>
-            <button>add resume</button>
-            <button onClick={() => window.location.href = 'https://jobspark-resumebuilt.vercel.app/'}>
-                Re-Built Resume
+            <button>
+                ATS SCORE
             </button>
-            <button onClick={handleFindJobs}>Find Jobs</button>
+            <button onClick={() => window.location.href = 'https://jobspark-resumebuilt.vercel.app/'}>
+                Re-Build Resume
+            </button>
+            <button onClick={handleFindJobs}>
+                Find Jobs
+            </button>
         </>
     )
 }
