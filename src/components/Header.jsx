@@ -1,4 +1,8 @@
+import { useClerk, UserButton, useUser } from "@clerk/clerk-react"
+
 export default function Header() {
+    const {user} = useUser();
+    const {openSignIn} = useClerk();
     return (<>
     <header> 
         <div className="header-content">
@@ -11,8 +15,14 @@ export default function Header() {
                 <a href="#about">About Us</a>
                 <a href="#contact">Contact</a>
         </nav> */}
-        <img src="./job_spark/src/assets/react.svg" className="icon"/>
-        
+        {
+            !user ?(<button onClick={openSignIn} className="sign-in-button">
+            Sign In
+        </button> ) :(
+            <UserButton></UserButton>
+        )
+        }
+          
     </header>
   </>
         
