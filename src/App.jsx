@@ -4,6 +4,7 @@ import Header from './components/Header.jsx'
 import Content from './components/Content.jsx'
 import Form from './components/Form.jsx'
 import JobSearch from './components/jobsearch.jsx'
+import AtsScorePage from './pages/AtsScorePage.jsx'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           </>
         } />
         <Route path="/jobs" element={<JobSearch/>} />
+        <Route path="/ats-score" element={<AtsScorePage/>} />
       </Routes>
     </Router>
   )

@@ -6,10 +6,13 @@ export default function Form() {
     const handleFindJobs = () => {
         navigate('/jobs')
     }
+    const handleAtsScore = () => {
+        navigate('/ats-score')
+    }
 
     return (
-        <>
-            <button className='nav-btn'>
+        <div className="form-container">
+            <button className='nav-btn ats-btn' onClick={handleAtsScore}>
                 ATS SCORE
             </button>
             <button className='nav-btn' onClick={() => window.location.href = 'https://jobspark-resumebuilt.vercel.app/'}>
@@ -18,6 +21,6 @@ export default function Form() {
             <button className='nav-btn' onClick={handleFindJobs}>
                 Find Jobs
             </button>
-        </>
+        </div>
     )
 }
